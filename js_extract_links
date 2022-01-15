@@ -1,0 +1,10 @@
+let artists = document.querySelectorAll('.thumb')
+arr_ = []
+for (let i=0; i<artists.length; i++) {
+    let link = artists[i]['href']
+    
+    if (!arr_.includes(link)) {
+        arr_.push(link)
+    }
+}
+arr_
