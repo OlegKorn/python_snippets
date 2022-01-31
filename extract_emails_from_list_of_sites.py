@@ -15,7 +15,6 @@ f = open(file, 'r').readlines()
 
 logging.basicConfig(
     filename=f"{path}emails.log",
-    filemode='w+',
     level=logging.INFO, 
     format=FORMAT
 )
